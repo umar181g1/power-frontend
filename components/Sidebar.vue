@@ -5,9 +5,9 @@
   >
     <div class="px-6 py-[50px] gap-y-[50px] flex flex-col">
       <div class="flex items-center justify-between">
-        <a href="#" class="flex justify-center">
+        <nuxt-link to="/" class="flex justify-center">
           <img src="/assets/svgs/logo-type.svg" alt="" />
-        </a>
+        </nuxt-link>
         <a href="#" id="toggleCloseSidebar" class="lg:hidden">
           <svg
             class="w-6 h-6 text-dark"
@@ -27,22 +27,22 @@
       </div>
       <div class="flex flex-col gap-4">
         <div class="text-sm text-grey">Daily Use</div>
-        <nuxt-link to="index" class="nav-link active">
+        <NuxtLink :to="{ name: 'componis-id' }" class="nav-link">
           <img src="/assets/svgs/ic-grid.svg" alt="" />
           Overview
-        </nuxt-link>
-        <nuxt-link to="employees" class="nav-link">
+        </NuxtLink>
+        <NuxtLink :to="{ name: 'componis-id-employees' }" class="nav-link">
           <img src="/assets/svgs/ic-users.svg" alt="" />
           Employees
-        </nuxt-link>
-        <nuxt-link to="team" class="nav-link">
+        </NuxtLink>
+        <NuxtLink :to="{ name: 'componis-id-teams' }" class="nav-link">
           <img src="/assets/svgs/ic-briefcase.svg" alt="" />
           My Teams
-        </nuxt-link>
-        <nuxt-link to="role" class="nav-link">
+        </NuxtLink>
+        <NuxtLink :to="{ name: 'componis-id-roles' }" class="nav-link">
           <img src="/assets/svgs/ic-flag.svg" alt="" />
           Roles
-        </nuxt-link>
+        </NuxtLink>
       </div>
       <div class="flex flex-col gap-4">
         <div class="text-sm text-grey">Others</div>

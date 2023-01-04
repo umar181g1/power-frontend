@@ -1,5 +1,5 @@
 <template>
-  <section class="py-[200px] flex flex-col items-center justify-center px-4">
+   <section class="py-[200px] flex flex-col items-center justify-center px-4">
     <div class="text-[32px] font-semibold text-dark mb-4">Select Companies</div>
     <from class="w-full card">
       <div class="form-group">
@@ -13,10 +13,12 @@
         </select>
       </div>
     </from>
-    <a href="componis" class="w-full btn btn-primary mt-[14px]">Continue</a>
+    <a href="componis/1" class="w-full btn btn-primary mt-[14px]">Continue</a>
   </section>
-</template>
-
-<script>
-export default {}
-</script>
+  </template>
+  
+  <script>
+  export default {
+      
+  }
+  </script>
