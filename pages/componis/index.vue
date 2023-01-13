@@ -13,7 +13,7 @@
         </select>
       </div>
     </from>
-    <a href="componis/1" class="w-full btn btn-primary mt-[14px]">Continue</a>
+    <nuxt-link to="componis/1" class="w-full btn btn-primary mt-[14px]">Continue</nuxt-link>
   </section>
   </template>
   
