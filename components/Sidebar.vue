@@ -35,7 +35,7 @@
           <img src="/assets/svgs/ic-users.svg" alt="" />
           Employees
         </NuxtLink>
-        <NuxtLink :to="{ name: 'componis-id-teams' }" class="nav-link">
+        <NuxtLink :to="{ name: 'componis-id-team' }" class="nav-link">
           <img src="/assets/svgs/ic-briefcase.svg" alt="" />
           My Teams
         </NuxtLink>
