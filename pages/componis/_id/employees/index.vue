@@ -68,7 +68,7 @@
               <div>
                 <p class="text-grey">In Total</p>
                 <div class="text-[32px] font-bold text-dark mt-[6px]">
-                  425,000
+                  425,000s
                 </div>
               </div>
             </div>
